@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: montserrat;
+	box-sizing: border-box;
+}
+body{
+	min-height: 100vh;
+	background-image: linear-gradient(120deg,#2ecc71,#27ae60);
+}
+table, th, td {
+		  border: 1px solid black;
+		  border-collapse: collapse;
+		  padding: 10px;
+		}
+
+.mainform{
+	width: 1600px;
+	background: #f1f1f1;
+	padding: 80px 40px;
+	border-radius: 40px;
+	position: absolute;
+	left: 50%;
+	top: 15%;
+	transform: translateX(-50%);
+
+}
