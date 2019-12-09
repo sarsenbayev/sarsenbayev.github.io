@@ -7,7 +7,7 @@
 }
 body{
 	min-height: 100vh;
-	background-image: linear-gradient(120deg,#2ecc71,#27ae60);
+	background-image: linear-gradient(120deg,#5dd048,#5dd048);
 }
 table, th, td {
 		  border: 1px solid black;
@@ -21,8 +21,32 @@ table, th, td {
 	padding: 80px 40px;
 	border-radius: 40px;
 	position: absolute;
-	left: 50%;
+	left: 7%;
 	top: 15%;
-	transform: translateX(-50%);
+	
 
+}
+.logo{
+	height: 300px;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+.logo img{
+	height: 300px;
+}
+.nis{
+	height: 300px;
+	position: absolute;
+	right: 160px;
+	top: 160px;	
+}
+.nis h1{
+	color: #94790b;
+	font-size: 34pt;
+}
+.nis h4{
+
+	color: #94790b;
+	font-size: 14pt;
 }
