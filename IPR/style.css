@@ -7,23 +7,21 @@
 }
 body{
 	min-height: 100vh;
-	background-image: linear-gradient(120deg,#5dd048,#5dd048);
+	background-color: #5dd048;
 }
 table, th, td {
 		  border: 1px solid black;
 		  border-collapse: collapse;
 		  padding: 10px;
 		}
-input{
-	border-top: none;
-	border-right: none;
-	border-left: none;
-	border-bottom: 1px solid #000000;
+input,textarea{
+	
+	border: 1px solid #000000;
 	outline: none;
 	background: #f1f1f1;
 }
 textarea{
-	
+
 }
 .mainform{
 	width: 85%;
