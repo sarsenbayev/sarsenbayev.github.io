@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
-	font-family: montserrat;
+	font-family: 'Montserrat', sans-serif;
 	box-sizing: border-box;
 }
 body{
@@ -14,9 +14,19 @@ table, th, td {
 		  border-collapse: collapse;
 		  padding: 10px;
 		}
-
+input{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 1px solid #000000;
+	outline: none;
+	background: #f1f1f1;
+}
+textarea{
+	
+}
 .mainform{
-	width: 1600px;
+	width: 85%;
 	background: #f1f1f1;
 	padding: 80px 40px;
 	border-radius: 40px;
@@ -42,11 +52,12 @@ table, th, td {
 	top: 160px;	
 }
 .nis h1{
+	font-family: 'Times New Roman';
 	color: #94790b;
-	font-size: 34pt;
+	font-size: 36pt;
 }
 .nis h4{
-
+	font-family: 'Times New Roman';
 	color: #94790b;
-	font-size: 14pt;
+	font-size: 16pt;
 }
