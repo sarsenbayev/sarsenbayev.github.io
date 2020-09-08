@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<title>Personal Project Platform</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+	<script type=""></script>
+</head>
+<body>
+
+<div class="mainform">
+	
+	<h1><b>Personal Project Platform For Teachers</b></h1>
+	<br>
+	<i><p style="width: 600px; font-size: 14pt;">"Это всего лишь шаблон тестовой версии (созданной за 2 часа) для ознакомления, финальная версия сайта будет отличаться от той что находиться здесь."</p></i>
+	<br>
+	<i><p style="width: 600px; font-size: 14pt;">"При выборе темы проекта вы можете заметить смену учащихся, после загрузки всех учащихся в единую базу данных процесс нахождения ментора супервайзера будет облегчен как для учащихся так и для учителей."</p></i>
+	<div class="nis">
+		<h1>NIS</h1>
+		<h4>Nazarbayev</h2>
+		<h4>Intellectual</h2>
+		<h4>School</h2>
+	</div>
+	<div class="logo"><img src="nis.png"></div>
+	
+	<br>
+	<h3>Find students by topic</h3>
+	<br>
+
+	<table>
+	  
+	  <tr>
+	    <td><b>Тема проекта</b></td>
+	    <td><select id="cars" name="cars">
+	    	<option id="s1" value="Абылгазина Даяна 10Е Информатика 'Создание мобильного приложения MiFriend'">Информатика</option>
+	    	<option id="s2" value="Ачилов Альжан 10А Физика 'Запуск ракет в космос'">Физика</option>
+			<option id="s3" value="Дулатов Бакытбек 10С Химия 'Создание сплава вибраниума'">Химия</option>
+			<option id="s4" value="Сатыбалдинов Алмас 10В Биология 'Очищение воды в заповедниках'">Биология</option>
+			
+  		</select></td>
+	  </tr>
+	
+
+	</table> 
+	<br>
+	 <button onclick="myFunction()">Search</button> 
+	<br><br>
+
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("cars").selectedIndex;
+		  
+		  document.getElementById("k2").innerHTML = document.getElementsByTagName("option")[x].value;
+		}	
+	</script>
+
+	<h3>I. Список студентов</h3>
+	<br>
+	<table>
+		<tr>
+			<td>№</td>
+			<td>Фамилия Имя</td>
+			<td>Класс</td>
+			<td>Тема проекта</td>
+			<td>Название проекта</td>
+		</tr>
+
+		<tr>
+			<td id="k1">1</td>
+			<td colspan="4" id="k2">________</td>
+			
+		</tr>
+	</table>
+		
+</div>
+<div class="mainform2">
+	
+	<h1><b>Personal Project Platform For Students</b></h1>
+	<br>
+	
+	
+	
+	<br>
+
+	<h3>Find teachers by subject and language of instructions</h3>
+	<br>
+	<table>
+	  
+	  <tr>
+	    <td><b>Предмет</b></td>
+	    <td><select name="cars">
+	    	<option value="Учитель-стажер">Информатика</option>
+			<option value="Учитель">Физика</option>
+			<option value="Учитель-модератор">Химия</option>
+			<option value="Учитель-эксперт">История</option>
+			<option value="Учитель-исследователь">Казахский язык</option>
+			<option value="Учитель-мастер">Учитель-мастер</option>
+  		</select></td>
+	  </tr>
+	  <tr>
+	    <td><b>Язык обучения</b></td>
+	    <td><select name="cars">
+	    	<option value="Учитель-стажер">Английский</option>
+			<option value="Учитель">Русский</option>
+			<option value="Учитель-модератор">Казахский</option>
+			
+  		</select></td>
+	  </tr>
+	</table> 
+	<br>
+	<button onclick="myFunction2()">Search</button> <br>
+	<br>
+	<h3>II. Список учителей</h3>
+
+
+
+	<table>
+		<tr>
+			<td>№</td>
+			<td>ФИО</td>
+			<td>Предмет</td>
+			<td>Язык преподавания</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Сарсенбаев Ильяс Русланович
+		  	</td>
+		  	<td>Информатика</td>
+		  	<td>английский</td>
+		</tr></table>
+</div>
+
+</body>
+</html>
