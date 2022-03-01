@@ -1,0 +1,20 @@
+The requested files for download id e7889c00-cda3-4398-817d-6ad2b2bd5034 are now available 
+ 
+Number of files requested: 13 
+Success file count: 13 
+Failed file count: 0 
+ 
+Files
+1745926504 - Jaldygarayeva, Azhar TOK_23-5-_Jaldygarayeva_Azhar_-_IA_final.pdf - SUCCESS 
+1745934887 - Ishankulova, Daniya TOK_23-5_-_Ishankulova_Daniya-_IA_draft.pdf - SUCCESS 
+1745945025 - Dinmukhammed, Aida TOK_22-3_-_Dinmukhammed_Aida-_IA_draft_1.pdf - SUCCESS 
+1745949670 - Rakhymberdiev, Khamza TOK_23-5_Rakhymberdiev_Khamza_IA_Draft.pdf - SUCCESS 
+1745952458 - Kabylashitova, Aida TOK_23_5_-_Kabylashitova_Aida-_IA_draft.pdf - SUCCESS 
+1745973688 - Abdibekova, Adiya TOK_23-5_-_Abdibekova_Adiya-_IA_Draft.pdf - SUCCESS 
+1745974541 - Jalmagambetova, Aruzhan an_-_Indigenous_knowledge_and_indigenous_society_3_summative.pdf - SUCCESS 
+1745994847 - Orimbassar, Nurdaulet TOK_23-5_Orimbassar_Nurdaulet_-_IA_draft.pdf - SUCCESS 
+1745995878 - Oshanova, Anel TOK_23-5_-_Oshanova_Anel-_IA_draft.pdf - SUCCESS 
+1745996387 - Ongarbaev, Damir TOK_22-3_-_Ongarbaev_Damir_-_IA_final.pdf - SUCCESS 
+1745997485 - Idrisova, Elmira TOK_23-5_-_Idrisova_Elmira_-_IA_draft.pdf - SUCCESS 
+1746004775 - Abdikarimov, Yelnur TOK_22-3--Abdykarimov_Elnur--IA_DRAFT.pdf - SUCCESS 
+1746004947 - Abdrakhmanov, Gibrat tOK_22-3_Abdrakhmanov_Gibrat__IA_final.pdf - SUCCESS 

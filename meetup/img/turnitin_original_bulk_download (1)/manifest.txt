@@ -1,0 +1,20 @@
+The requested files for download id d3afa065-6a7a-4277-bdb2-0f8d2d9e5d1d are now available 
+ 
+Number of files requested: 13 
+Success file count: 13 
+Failed file count: 0 
+ 
+Files
+1760174458 - Jaldygarayeva, Azhar TOK_22-3-Jaldygarayeva_Azhar-_IA_final.pdf - SUCCESS 
+1760651406 - Ongarbaev, Damir TOK_22-3_-_Ongarbaev_Damir_-_IA_final_1.pdf - SUCCESS 
+1760720306 - Rakhymberdiev, Khamza TOK_23-5_Rakhymberdiev_Khamza_IA_Final.pdf - SUCCESS 
+1760725531 - Dinmukhammed, Aida TOK_23-5_-_Dinmukhammed_Aida-IA_Final.pdf - SUCCESS 
+1760728373 - Abdibekova, Adiya TOK_23-5_-_Abdibekova_Adiya-_IA_Final.pdf - SUCCESS 
+1760728473 - Abdikarimov, Yelnur TOK_22-3--Abdykarimov_Elnur--IA_DRAFT.docx.pdf - SUCCESS 
+1760746579 - Jalmagambetova, Aruzhan TOK_22-5_-_Dzhalmagambetova_Aruzhan-_IA_final.pdf - SUCCESS 
+1760749875 - Ishankulova, Daniya TOK_23-5_-_Ishankulova_Daniya-_IA_final.pdf - SUCCESS 
+1760766860 - Idrisova, Elmira TOK_23-5_-_Idrisova_Elmira_-_IA_final.pdf - SUCCESS 
+1760767820 - Kabylashitova, Aida TOK_23_5_-_Kabylashitova_Aida-_IA_final.pdf - SUCCESS 
+1760772160 - Abdrakhmanov, Gibrat TOK_22-3-Abbdrakhmanov_Gibrat-AI-final.pdf - SUCCESS 
+1760781523 - Oshanova, Anel TOK_23-5_-_Oshanova_Anel-_IA_Final.docx.pdf - SUCCESS 
+1760788666 - Orimbassar, Nurdaulet TOK_23-5_Orimbassar_Nurdaulet_-_IA_final.pdf - SUCCESS 

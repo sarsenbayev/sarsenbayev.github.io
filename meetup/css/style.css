@@ -1,7 +1,7 @@
 body {
 	font-family: 'Dosis', sans-serif;
     color: #404142;
-    font-size: 16px;
+    font-size: 14px;
 	letter-spacing: 0.8px;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -184,7 +184,8 @@ a span.ti-twitter-alt {
 }
 
 .tickets {
-	background-color: #fcd93b;
+	background-color: white;
+    color: black;
 }
 .tickets .price {
 	font-size: 4em;
