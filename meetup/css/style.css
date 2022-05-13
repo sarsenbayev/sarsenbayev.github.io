@@ -7,6 +7,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 200;
 }
+#nis{
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    width: 200px;
+}
 ul {
 	margin: 0;
 	padding: 0;
