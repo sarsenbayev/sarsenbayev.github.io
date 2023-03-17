@@ -56,7 +56,7 @@
         </div>
     </div>
     <!--END  Modal content-->
-    <div class="wrappage">
+    <!-- <div class="wrappage">
         <header id="header" class="header-v1">
             <div class="sticky-header text-center hidden-xs hidden-sm">
                 <div class="text">
@@ -279,16 +279,16 @@
                     </div>
                 </div>
             </div>
-        </header>
+        </header> -->
         <!-- /header -->
         <div class="main-content space-padding-tb-70">
             <div class="container">
                 <div class="row">
                     <div class="checkout-login col-xs-12 col-sm-6">
-                        <div class="box-toggle box-login">
+                       <!--  <div class="box-toggle box-login">
                             Returning customer?
                             <a class="show-login js-showlogin">Click here to login</a>
-                        </div>
+                        </div> -->
                         <form method="post" class="form-customer form-login js-openlogin">
                             <p>If you have shopped with us before, please enter your details in the boxes below. If you are a new customer, please proceed to the Billing & Shipping section.</p>
                             <div class="form-group ">
@@ -308,7 +308,7 @@
                                 <a href=" " class="lost-password ">Lost your password?</a>
                             </div>
                         </form>
-                    </div>
+                   <!--  </div>
                     <div class=" col-xs-12 col-sm-6 checkout-cp ">
                         <div class="box-toggle box-coupon ">
                             Have a coupon?
@@ -321,12 +321,12 @@
                             <button value="Submit" class="btn link-button-v2 hover-white color-red btn-cp-inline" type="submit">Apply</button>
                         </form>
                     </div>
-                </div>
+                </div> -->
                 <form name="checkout" method="post" class="checkout">
                     <div class="cart-box-container-ver2">
                         <div class="row">
                             <div class="col-md-8">
-                                <h3>Billing Details</h3>
+                                <h3>Uploading details </h3>
                                 <div class="row form-customer">
                                     <div class="form-group col-md-6">
                                         <label for="inputfname_2" class=" control-label">First Name *</label>
@@ -337,8 +337,8 @@
                                         <input type="text" id="inputlname" class="form-control form-account">
                                     </div>
                                     <div class="form-group col-md-12">
-                                        <label for="inputcompany" class=" control-label">Company Name</label>
-                                        <input type="text" id="inputcompany" class="form-control form-account">
+                                        <label for="inputcompany" class=" control-label">Product photo</label>
+                                        <input type="file" id="inputcompany" class="form-control form-account">
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label for="inputemail" class=" control-label">Email Address *</label>
@@ -349,13 +349,13 @@
                                         <input type="text" id="inputphone" class="form-control form-account">
                                     </div>
                                     <div class="form-group col-md-12">
-                                        <label class="control-label">Country *</label>
-                                        <select name="inputcountry1" class="country form-control form-account">
-                                            <option selected>Select Country</option>
-                                            <option>COUNTRY 2</option>
-                                            <option>COUNTRY 1</option>
-                                            <option>COUNTRY 3</option>
-                                            <option>COUNTRY 4</option>
+                                        <label class="control-label">City *</label>
+                                        <select name="inputcity1" class="city form-control form-account">
+                                            <option selected>Select City</option>
+                                            <option>CITY 2</option>
+                                            <option>CITY 1</option>
+                                            <option>CITY 3</option>
+                                            <option>CITY 4</option>
                                         </select>
                                     </div>
                                     <div class="form-group col-md-12">
@@ -367,7 +367,7 @@
                                         <input type="text" id="inputpostcode" class="form-control form-account">
                                     </div>
                                     <div class="form-group col-md-6">
-                                        <label for="inputfState" class=" control-label">Town / City *</label>
+                                        <label for="inputfState" class=" control-label">Region *</label>
                                         <input type="text" id="inputfState" class="form-control form-account">
                                     </div>
                                     <div class="form-check col-md-12">
@@ -377,44 +377,39 @@
                                         </label>
                                     </div>
                                 </div>
-                                <h3>Shipping Details</h3>
+                                <h3></h3>
                                 <div class="row form-customer">
-                                    <div class="form-check col-md-12">
-                                        <label class="form-check-label ver2">
-                                            <input type="checkbox" class="form-check-input">
-                                            <span>Ship to a different address?</span>
-                                        </label>
-                                    </div>
+                                    <
                                     <div class="form-group col-md-12">
-                                        <label for="inputfState" class=" control-label">Order Notes</label>
-                                        <textarea name="message" rows="5" id="message" class="form-control form-note" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
+                                        <label for="inputfState" class=" control-label">Product description </label>
+                                        <textarea name="message" rows="5" id="message" class="form-control form-note" placeholder="Notes about your product."></textarea>
                                     </div>
                                 </div>
                             </div>
                             <!-- End contact-form -->
                             <div class="col-md-4">
-                                <h3>Your order</h3>
+                                <h3>Your product</h3>
                                 <div class="cart-list">
                                     <ul class="list">
                                         <li class="flex">
                                             <a href="#" title="" class="cart-product-image"><img src="img/cart_1.jpg" alt="Product"></a>
                                             <div class="text">
-                                                <p class="product-name">Rose Gold Natural Band Watch</p>
+                                                <p class="product-name">Oppo Reno 5</p>
                                                 <div class="quantity">x1</div>
-                                                <p class="product-price">$295.00</p>
+                                                <p class="product-price">free</p>
                                             </div>
                                         </li>
                                         <li class="flex">
                                             <a href="#" title="" class="cart-product-image"><img src="img/cart_1.jpg" alt="Product"></a>
                                             <div class="text">
-                                                <p class="product-name">Dot Drop Earrings</p>
+                                                <p class="product-name"></p>
                                                 <div class="quantity">x1</div>
-                                                <p class="product-price">$295.00</p>
+                                                <p class="product-price"></p>
                                             </div>
                                         </li>
                                     </ul>
                                 </div>
-                                <h3>Cart Totals</h3>
+                               <!--  <h3></h3>
                                 <div class="text-price">
                                     <ul>
                                         <li><span class="text">Subtotal</span><span class="number">$560.00</span></li>
@@ -447,7 +442,7 @@
                                                     <label for="radio4">Check Payments</label>
                                                     <p class="no-checkbox">Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>
                                                     <input type="radio" name="gender" value="Free" id="radio5">
-                                                    <label for="radio5">Paypal <img src="img/cart/paypal-icon.jpg" alt=""></label>
+                                                    <label for="radio5">Paypal <img src="img/cart/paypal-icon.jpg" alt=""></label> -->
                                                 
                                             </div>
                                         </li>
