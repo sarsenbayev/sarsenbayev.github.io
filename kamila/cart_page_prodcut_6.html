@@ -8,9 +8,9 @@
     <title>Cosso - Clean, Minimal Responsive HTML Template</title>
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/png">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-slider.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
@@ -281,86 +281,152 @@
             </div>
         </header>
         <!-- /header -->
-        <div class="container container-42">
-            <ul class="breadcrumb">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li class="active"><a href="#">Pet's cloth</a></li>
-            </ul>
-        </div>
-        <div class="container">
-            <div class="single-product-detail product-bundle product-aff">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-5 col-md-6">
-                        <div class="product-images">
-                            <div class="main-img js-product-slider">
-                                <a href="#" class="hover-images effect"><img src="img/lookbook/look_6.jpg" alt="photo" class="img-reponsive"></a>
-                                <a href="#" class="hover-images effect"><img src="img/bottle_3.jpg" alt="photo" class="img-reponsive"></a>
-                                <a href="#" class="hover-images effect"><img src="img/bottle2.jpg" alt="photo" class="img-reponsive"></a>
+        <!--main content-->
+        <div class="main-content">
+            <div class="cart-box-container-ver2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h3>Shopping Cart</h3>
+                            <table class="table cart-table space-30">
+                                <tbody>
+                                    <tr class="item_cart">
+                                        <td class="product-photo"><img src="img/cart/product_1.jpg" alt="Futurelife"></td>
+                                        <td class="produc-name"><a href="#" title="">Rose Gold Natural Band Watch</a>
+                                            <div class="quantity input-group">
+                                                <button type="button" class="quantity-left-minus btn btn-number js-minus" data-type="minus" data-field="">
+                                                    <span class="minus-icon">-</span>
+                                                </button>
+                                                <input type="text" name="number" value="1" class="product_quantity_number js-number">
+                                                <button type="button" class="quantity-right-plus btn btn-number js-plus" data-type="plus" data-field="">
+                                                    <span class="plus-icon">+</span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td class="total-price">
+                                            <a class="remove" href="#" title="">x</a>
+                                            <p class="price">$295.00</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="item_cart">
+                                        <td class="product-photo"><img src="img/cart/product_2.jpg" alt="Futurelife"></td>
+                                        <td class="produc-name"><a href="#" title="">Rose Gold Natural Band Watch</a>
+                                            <div class="quantity input-group">
+                                                <button type="button" class="quantity-left-minus btn btn-number js-minus" data-type="minus" data-field="">
+                                                    <span class="minus-icon">-</span>
+                                                </button>
+                                                <input type="text" name="number" value="1" class="product_quantity_number js-number">
+                                                <button type="button" class="quantity-right-plus btn btn-number js-plus" data-type="plus" data-field="">
+                                                    <span class="plus-icon">+</span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td class="total-price">
+                                            <a class="remove" href="#" title="">x</a>
+                                            <p class="price">$295.00</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6">
+                                    <a href="" class="btn link-button hover-black continue">Continue Shopping</a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <a href="" class="btn link-button hover-black update">Update Cart</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="multiple-img-list-ver2 js-click-product">
-                            <div class="product-col">
-                                <div class="img active">
-                                    <img src="img/bottle.jpg" alt="photo" class="img-reponsive">
-                                </div>
+                        <!-- End contact-form -->
+                        <div class="col-md-4">
+                            <h3>Coupon</h3>
+                            <div class="contact-form coupon">
+                                <form class="">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control input-cart" id="inputfname" placeholder="Coupon Code">
+                                        <button value="Submit" class="btn link-button link-button-v2 hover-white color-red" type="submit">Apply coupon</button>
+                                    </div>
+                                </form>
                             </div>
-                            <div class="product-col">
-                                <div class="img">
-                                    <img src="img/bottle_3.jpg" alt="images" class="img-responsive">
-                                </div>
+                            <h3>Cart Totals</h3>
+                            <div class="text-price">
+                                <ul>
+                                    <li><span class="text">Subtotal</span><span class="number">$560.00</span></li>
+                                    <li><span class="text">Shipping</span>
+                                        <div class="payment">
+                                            <form action="#">
+                                                <input type="radio" name="gender" value="Flat" id="radio1" checked="checked">
+                                                <label for="radio1">Free Shipping</label>
+                                                <input type="radio" name="gender" value="Free" id="radio2">
+                                                <label for="radio2">Standard <span class="number">$20.00</span></label>
+                                                <input type="radio" name="gender" value="Delivery" id="radio3">
+                                                <label for="radio3">Local Pickup</label>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li><span class="text calculate">Calculate shipping</span>
+                                        <form class="zipcode" action="#">
+                                            <input type="text" class="form-control input-cart" placeholder="Zipcode">
+                                        </form>
+                                    </li>
+                                    <li><span class="text">Totals</span><span class="number">$89.00</span></li>
+                                </ul>
                             </div>
-                            <div class="product-col">
-                                <div class="img">
-                                    <img src="img/bottle2.jpg" alt="images" class="img-responsive">
-                                </div>
-                            </div>
+                            <a class="btn link-button hover-white checkout" href="#" title="Proceed to checkout">Proceed to checkout</a>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-7 col-md-6">
-                        <div class="single-product-info">
-                            <div class="rating-star">
-                                <div class="icon-rating">
-                                    <span class="star star-5"></span>
-                                    <span class="star star-4"></span>
-                                    <span class="star star-3"></span>
-                                    <span class="star star-2"></span>
-                                    <span class="star star-1"></span>
-                                </div>
-                                <span class="review"></span>
-                            </div>
-                            <h3 class="product-title"><a href="#">Simple Product</a></h3>
-                            <div class="product-price">
-                                <span>Free</span>
-                            </div>
-                            <p class="product-desc">Pet clothes made of coton with a dinosaur print that have never been used, making them like new. Dinosaur prints are a fun and trendy way to dress up your furry friend. Cotton is a popular material for pet clothing, as it is soft, comfortable, and breathable, making it ideal for pets with sensitive skin.</p>
-                            <div class="action v3">
-                                <div class="quantity">
-                                    <button type="button" class="quantity-left-minus btn btn-number js-minus" data-type="minus" data-field="">
-                                        <span class="minus-icon">-</span>
-                                    </button>
-                                    <input type="text" name="number" value="1" class="product_quantity_number js-number">
-                                    <button type="button" class="quantity-right-plus btn btn-number js-plus" data-type="plus" data-field="">
-                                        <span class="plus-icon">+</span>
-                                    </button>
-                                </div>
-                                <a href="cart_page_prodcut_5.html" class="link-ver1 add-cart">Add To Cart</a>
-                                <a href="#" class="link-ver1 wish"><i class="icon-heart f-15"></i></a>
-                                <div class="clearfix"></div>
-                            </div>
-                            <div class="share-social">
-                                <span>Share :</span>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                <a href="#"><i class="fa fa-pinterest-p"></i></a>
-                            </div>
+                </div>
+                <!-- End container -->
+            </div>
+            <!-- End cat-box-container -->
+        </div>
+        <!-- end main content-->
+        <footer>
+            <div class="container container-42">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                        <div class="menu-footer">
+                            <ul>
+                                <li><a href="#">Shipping</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                        <div class="newletter-form">
+                            <h3 class="footer-title text-center">Newsletter</h3>
+                            <form action="#">
+                                <input type="text" name="s" placeholder="Email Adress..." class="form-control">
+                                <button type="submit" class="btn btn-submit">
+                                    <i class="fa fa-angle-right"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                        <div class="social">
+                            <a href="#" title="twitter">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="#" title="facebook">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="#" title="google plus">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                            <a href="#" title="Pinterest">
+                                <i class="fa fa-pinterest-p"></i>
+                            </a>
+                            <a href="#" title="rss">
+                                <i class="fa fa-rss"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--single-product-detail-->
-      
+        </footer>
+    </div>
     <a href="#" class="scroll_top">SCROLL TO TOP<span></span></a>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
