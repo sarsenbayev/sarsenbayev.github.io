@@ -47,10 +47,10 @@ function Slide(title, subtitle, background, link ) {
 // Creating our slide objects, you can make as many as you want
 
 var Medeo = new Slide(
-	"Medeo", 
+	"Gorelnik", 
 	"An easy route for beginners", 
-	"https://www.orexca.com/img/kazakhstan/almaty/medeo.jpg", 
-	"#"
+	"https://aboutkazakhstan.com/blog/wp-content/uploads/2018/07/hiking-gorelnik-gorge-kazakhstan-2.jpg", 
+	"1.html"
 );
 
 var bigBang = new Slide(
