@@ -89,7 +89,7 @@ function buildSlider(){
 		"<div class='slideOverlay'>" + 
 		"<h1>" + slideArray[i].title + "</h1>" +
 		"<h4>" + slideArray[i].subtitle + "</h4>" +
-		"<a href='" + slideArray[i].link + "' target='_blank'>Open Route</a>" +
+		"<a href='" + slideArray[i].link + "' target='_self'>Open Route</a>" +
 		"</div>" +
 		"</div>";	
 		
