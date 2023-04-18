@@ -46,24 +46,24 @@ function Slide(title, subtitle, background, link ) {
 
 // Creating our slide objects, you can make as many as you want
 
-var walkingDead = new Slide(
-	"The Walking Dead", 
-	"A show about fighting zombies", 
-	"https://source.unsplash.com/450x450/?girl", 
+var Medeo = new Slide(
+	"Medeo", 
+	"An easy route for beginners", 
+	"https://www.orexca.com/img/kazakhstan/almaty/medeo.jpg", 
 	"#"
 );
 
 var bigBang = new Slide(
-	"The Big Bang Theory", 
-	"A show about Sheldon", 
-	"https://source.unsplash.com/450x450/?cat", 
+	"Shymbulak", 
+	"An advanced route for experienced", 
+	"https://www.stephenlioy.com/Archive/Central-Asia/Kazakhstan/Almaty/Shymbulak-Ski-Resort/i-6MWc8pt/0/L/skiing%20at%20shymbulak%20ski%20resort-L.jpg", 
 	"#"
 );
 
 var LastMan = new Slide(
-	"The Last Man on Earth", 
-	"A show about loneliness", 
-	"https://source.unsplash.com/450x450/?tech", 
+	"Furmanov peak", 
+	"A medium route for experienced", 
+	"https://static.explorekazakhstan.net/images/tours/39/1500x840_1.webp", 
 	"#"
 );
 
@@ -89,7 +89,7 @@ function buildSlider(){
 		"<div class='slideOverlay'>" + 
 		"<h1>" + slideArray[i].title + "</h1>" +
 		"<h4>" + slideArray[i].subtitle + "</h4>" +
-		"<a href='" + slideArray[i].link + "' target='_blank'>Open Link</a>" +
+		"<a href='" + slideArray[i].link + "' target='_blank'>Open Route</a>" +
 		"</div>" +
 		"</div>";	
 		
